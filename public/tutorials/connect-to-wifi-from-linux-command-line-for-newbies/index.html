@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Connect to WiFi from Linux command line</title>
+    <link rel="stylesheet" href="../../css/style.css">
+</head>
+<body>
+    <header>
+        <h1 style=" margin-bottom: 0.25em;"><a href="https://nithitsuki.github.io/" style="color: black; text-decoration: none;" onmouseover="this.style.color='#d4050cc9'" onmouseout="this.style.color='black'">Nithitsuki&#39;s Website</a></h1>
+    </header>
+    <p style="text-align: center; word-spacing: 0.925em;"><a href="../../incomplete-projects">Projects</a> <a href="../../tutorials">Tutorials</a> <a href="../../about-me" style="word-spacing: normal;">About Me</a> <a href="../../blogs">Blogs</a> <a href="../../photography">Photography</a></p>
+    <hr>
+    <main>
+			<article>
+        
+    <h2>Connect to WiFi from Linux command line</h2>
+    <div><h3 id="preface">Preface</h3>
+<p>This method uses WPA_supplicant, for other methods involving iwctl and the alike, checkout <a href="https://wiki.archlinux.org/title/Network_configuration/Wireless#iw">this article</a> on the Archwiki</p>
+<h3 id="objective">Objective</h3>
+<p>Configure and Connect to WiFi only using command line utilities.</p>
+<h3 id="requirements">Requirements</h3>
+<p>[Root access] or [access to sudo]
+wpa_supplicant,net-tools and dhclient(or DHCPCD) aldready installed on your computer.
+wifi support on your laptop/pc</p>
+<h3 id="additonal-info">additonal info</h3>
+<p>This guide will also go through some common problems while connecting to a WiFi. Look at the page-end if you face any issues
+dhclient or DHCPCD are not required if you don&rsquo;t want to connect to the internet or if you want to assign the ip adress manually
+wifi is not necessary since you can configure the software and connect later
+you can also look up more resources and documents about the software used in this article from the sources listed below</p>
+<h3 id="conventions">Conventions</h3>
+<ul>
+<li># requires given linux commands to be executed with root privileges either directly as a root user or by the use of sudo command</li>
+<li>$ - given linux commands <em>can</em> be executed as a regular non-privileged user</li>
+</ul>
+<hr>
+<h4 id="1-finding-your-wifi-card-name">1. Finding your wifi card name</h4>
+<p>First, you need to find the name of your physical wifi card. You can do that by typing</p>
+<pre><code>$ ip link
+</code></pre>
+<p>this will list out the connected network devices</p>
+<p>in my case it&rsquo;s called &ldquo;wlp0s20f3&rdquo; because &ldquo;lo&rdquo; is loopback which is just an important placeholder card and eno1 is my ethernet port</p>
+<p>and in your case, your wifi card probably starts with &ldquo;w&rdquo; as well, so just make sure which one is your wifi card.</p>
+<p>(If for some reason you can&rsquo;t find your wifi card, try checking out the troubleshooting part before you continue)</p>
+<h4 id="2-turning-on-your-wifi-card">2. Turning on your wifi card</h4>
+<p>Now, you have to see if your wifi card is turned on by linux
+You can check that by running &ldquo;$ ifconfig&rdquo; which will show your current active network devices.</p>
+<p>If your card doesnt appear here, it means it is turned off.
+To turn it on just type &ldquo;# ifconfig [your wifi card name] up&rdquo;. you can check again by typing &ldquo;$ ifconfig&rdquo;.</p>
+<p>Now that the wifi card is turned on and ready to use. All you need to do now is just connect it to your wifi.</p>
+<h4 id="3-configuring-wpa_supplicant">3. Configuring wpa_supplicant</h4>
+<p>Now, you have to configure wpa_supplicant(the main program used to connect you to wifi).
+First you need to make the configuration file, you can do that by touching it</p>
+<pre><code># touch etc/wpa_supplicant/wpa_supplicant-wlp0s20f3.conf
+</code></pre>
+<p>you can replace wlp0s20f3 with your wifi card name.
+now just edit the configuration file using a text editor like nano or vim(any text editor will do)</p>
+<pre><code># nano etc/wpa_supplicant/wpa_supplicant-wlp0s20f3.conf
+</code></pre>
+<p>and add these two lines (all are small letters)</p>
+<p>ctrl_interface=run/wpa_supplicant</p>
+<p>update_config=1</p>
+<p>and save and exit nano by pressing ctrl + O and then ctrl + X</p>
+<h4 id="4-adding-your-wifi-credentials">4. Adding your wifi credentials</h4>
+<p>To add your wifi name and password, just</p>
+<pre><code># wpa_passphrase your_wifi_name your_wifi_password &gt;&gt; etc/wpa_supplicant/wpa_supplicant-wlp0s20f3.conf
+</code></pre>
+<p>if your wifi name has spaces in it, put them inside &quot;&quot;</p>
+<p>you can check if the changes were made by editing the configuration file again.
+If you made a mistake then delete the newly added lines and run the command again</p>
+<h4 id="5-connecting-to-wifi-finally">5. Connecting to wifi! Finally</h4>
+<p>you can connect to your wifi by running,</p>
+<pre><code>wpa_supplicant -i [your wifi card name] -c etc/wpa_supplicant/wpa_supplicant-wlp6s0.conf
+</code></pre>
+<p>Now, you should be connected to your wifi!</p>
+<p>also, you can use options like -B to make it run in the background</p>
+<p>and option -qq to make it look more neat.</p>
+<p>For more options, read the man page of wpa_supplicant ($ man wpa_supplicant)</p>
+<h4 id="6-connecting-to-the-internet">6. Connecting to the internet.</h4>
+<p>now Just type</p>
+<pre><code>dhclient [your wifi card name]
+</code></pre>
+<p>note: you can use DHCPCD instead of dhclient</p>
+<p>Sources:</p>
+<p><a href="https://youtu.be/QGyHDIYlLFA">4-eyed-cat man&rsquo;s tutorial</a></p>
+<p><a href="https://linux.die.net/man/8/wpa_supplicant">wpa_supplicant manual</a></p>
+<hr>
+<h3 id="troubleshooting">Troubleshooting</h3>
+<p>ERROR: operation not permited, FIX: run it as root</p>
+<p>ERROR: permission denied, FIX: run it as root</p>
+<p>ERROR: wlan softblocked, FIX: try &ldquo;# rfkill unblock wlan&rdquo;</p>
+<p>PROBLEM: Couldn&rsquo;t find my wifi card</p>
+<p>SOLUTION:
+You may not have the required wifi drivers installed on your system,
+In arch and arch based linux distributions try downloading linux-firmware (# pacman -Sy linux-firmware).
+In Debian/Ubuntu based distro&rsquo;s try downloading the firmware-iwlwifi and firmware-realtek package(might need to add some repo&rsquo;s)
+or try downloading the intel wifi drivers for linux and extracting the .ucode to /lib/firmware.
+In gentoo or any other linux distribution, try extracting the wifi drivers to /lib/firmware or compile the firmware into your kernel
+In any case, a Reboot is highly recommended</p>
+</div>
+
+			</article>
+    </main>
+    <footer>
+	
+    <a href="https://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1"><img src="../../buttons/by-sa.png" width="88px" height="31px" alt="CC BY-SA 4.0"></a> <img src="../../buttons/linux_now.gif" width="88px" height="31px" alt="linux button gif">
+       <p>Nithitsuki&#39;s Website 2025 </p>
+    </footer>
+</body>
+
+</html>
