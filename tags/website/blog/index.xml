@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>website/blog on Nithitsuki&#39;s Website</title>
+    <link>https://nithitsuki.github.io/tags/website/blog/</link>
+    <description>Recent content in website/blog on Nithitsuki&#39;s Website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://nithitsuki.github.io/tags/website/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Software I use and recommend</title>
+      <link>https://nithitsuki.github.io/blogs/how-to-choose-good-software/</link>
+      <pubDate>Sun, 09 Oct 2022 12:04:08 +0530</pubDate>
+      
+      <guid>https://nithitsuki.github.io/blogs/how-to-choose-good-software/</guid>
+      <description>This is a page I made for the software I use, and think might be useful for others in finding better programs. I&amp;rsquo;m only going to write about programs I have used for a while and tested to be true.
+My &amp;lsquo;Philosophy&amp;rsquo; in choosing good software The software must run well on slow hardware with minimal resources, most users over-estimate the amount of power required to complete simple tasks. So, i usually only seek &amp;ldquo;Minimal&amp;rdquo; and efficiently written software with enough features to get the work done.</description>
+    </item>
+    
+    <item>
+      <title>Tips on creating remarkable (tech) projects</title>
+      <link>https://nithitsuki.github.io/blogs/tips-on-creating-remarkable-tech-projects/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://nithitsuki.github.io/blogs/tips-on-creating-remarkable-tech-projects/</guid>
+      <description>When it comes to creating Tech projects, most are created with one of these 2 reasons in mind:
+ Out of Passion Out of necessity (school/for your resume/work)  Though I have (as of writing) always started projects out of passion, I have also been interested in making them more useful to me by enhancing my portfolio (resume) or by creating a more marketable product</description>
+    </item>
+    
+  </channel>
+</rss>
