@@ -1,0 +1,16 @@
+{{ define "main" }}
+  <h2>{{ .Title }}</h2>
+  <p>{{ .Content }}</p>
+
+  <ul>
+    {{ range .Pages }}
+      <li>
+        {{ if eq .Params.wip true }}
+          <a href="{{ "/wip" | absURL }}">{{ .Title }} [WIP!]</a>
+        {{ else }}
+          <a href="{{ .Permalink }}">{{ .Title }}</a>
+        {{ end }}
+      </li>
+    {{ end }}
+  </ul>
+{{ end }}
