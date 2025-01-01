@@ -8,6 +8,15 @@
     <language>en-us</language>
     <lastBuildDate>Mon, 02 Oct 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://nithitsuki.github.io/incomplete-projects/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Arduino IDE Morse Code Transmitter</title>
+      <link>https://nithitsuki.github.io/incomplete-projects/arduino-ide-morse-code-transmitter/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://nithitsuki.github.io/incomplete-projects/arduino-ide-morse-code-transmitter/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Class SKIP Calculator</title>
       <link>https://nithitsuki.github.io/incomplete-projects/class-skip-calculator/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -50,6 +59,15 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://nithitsuki.github.io/incomplete-projects/movin-fridge-/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Navigate And Plan Personalized Alerts (NAPPA)</title>
+      <link>https://nithitsuki.github.io/incomplete-projects/nappa/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://nithitsuki.github.io/incomplete-projects/nappa/</guid>
       <description></description>
     </item>
     
