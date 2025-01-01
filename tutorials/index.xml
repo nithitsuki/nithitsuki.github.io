@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tutorials on Nithitsuki&#39;s Website</title>
+    <link>https://nithitsuki.github.io/tutorials/</link>
+    <description>Recent content in Tutorials on Nithitsuki&#39;s Website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 02 Oct 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://nithitsuki.github.io/tutorials/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Boot from NVMe drive on an unsupported motherboard (UEFI only)</title>
+      <link>https://nithitsuki.github.io/tutorials/boot-from-nvme-drive-on-an-unsupported-motherboard-uefi-only/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://nithitsuki.github.io/tutorials/boot-from-nvme-drive-on-an-unsupported-motherboard-uefi-only/</guid>
+      <description>If your motherboard does not support booting from a PCIe slot, But you&amp;rsquo;ve got one of those &amp;ldquo;nvme to pcie x1 adapter&amp;rdquo; and are surprised that it doesn&amp;rsquo;t work
+Well, consider yourself lucky! (If your motherboard has UEFI that is)
+Since we can use a small workaround to chainload the bootloader/kernel on the pcie slot drive
+using a uefi bootloader on another boot drive that is supported (such as a sata hdd).</description>
+    </item>
+    
+    <item>
+      <title>Connect to WiFi from Linux command line</title>
+      <link>https://nithitsuki.github.io/tutorials/connect-to-wifi-from-linux-command-line-for-newbies/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://nithitsuki.github.io/tutorials/connect-to-wifi-from-linux-command-line-for-newbies/</guid>
+      <description>Preface This method uses WPA_supplicant, for other methods involving iwctl and the alike, checkout this article on the Archwiki
+Objective Configure and Connect to WiFi only using command line utilities.
+Requirements [Root access] or [access to sudo] wpa_supplicant,net-tools and dhclient(or DHCPCD) aldready installed on your computer. wifi support on your laptop/pc
+additonal info This guide will also go through some common problems while connecting to a WiFi. Look at the page-end if you face any issues dhclient or DHCPCD are not required if you don&amp;rsquo;t want to connect to the internet or if you want to assign the ip adress manually wifi is not necessary since you can configure the software and connect later you can also look up more resources and documents about the software used in this article from the sources listed below</description>
+    </item>
+    
+    <item>
+      <title>Setup lazy.nvim for neovim</title>
+      <link>https://nithitsuki.github.io/tutorials/setup-lazy.nvim-for-neovim/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://nithitsuki.github.io/tutorials/setup-lazy.nvim-for-neovim/</guid>
+      <description>Full Disclosure: I&amp;rsquo;m not experienced with neovim or plugins, I barely got it to work after many attempts, so here&amp;rsquo;s my take at it. Suggestions for improvements are welcome! .</description>
+    </item>
+    
+  </channel>
+</rss>

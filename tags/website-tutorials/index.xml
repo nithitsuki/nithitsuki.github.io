@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>website, tutorials on Nithitsuki&#39;s Website</title>
+    <link>https://nithitsuki.github.io/tags/website-tutorials/</link>
+    <description>Recent content in website, tutorials on Nithitsuki&#39;s Website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://nithitsuki.github.io/tags/website-tutorials/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Connect to WiFi from Linux command line</title>
+      <link>https://nithitsuki.github.io/tutorials/connect-to-wifi-from-linux-command-line-for-newbies/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://nithitsuki.github.io/tutorials/connect-to-wifi-from-linux-command-line-for-newbies/</guid>
+      <description>Preface This method uses WPA_supplicant, for other methods involving iwctl and the alike, checkout this article on the Archwiki
+Objective Configure and Connect to WiFi only using command line utilities.
+Requirements [Root access] or [access to sudo] wpa_supplicant,net-tools and dhclient(or DHCPCD) aldready installed on your computer. wifi support on your laptop/pc
+additonal info This guide will also go through some common problems while connecting to a WiFi. Look at the page-end if you face any issues dhclient or DHCPCD are not required if you don&amp;rsquo;t want to connect to the internet or if you want to assign the ip adress manually wifi is not necessary since you can configure the software and connect later you can also look up more resources and documents about the software used in this article from the sources listed below</description>
+    </item>
+    
+  </channel>
+</rss>

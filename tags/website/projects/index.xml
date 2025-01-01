@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>website/projects on Nithitsuki&#39;s Website</title>
+    <link>https://nithitsuki.github.io/tags/website/projects/</link>
+    <description>Recent content in website/projects on Nithitsuki&#39;s Website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://nithitsuki.github.io/tags/website/projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>hd44780 interfacing Library for pico</title>
+      <link>https://nithitsuki.github.io/incomplete-projects/hd44780-interfacing-library-for-pico/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://nithitsuki.github.io/incomplete-projects/hd44780-interfacing-library-for-pico/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>List of Projects</title>
+      <link>https://nithitsuki.github.io/incomplete-projects/list-of-incomplete-projects/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://nithitsuki.github.io/incomplete-projects/list-of-incomplete-projects/</guid>
+      <description>[[hd44780 interfacing Library for pico]] [[Morse code Transmitter and Receiver using raspberry pi pico]] [[Notifications without Addictions]] [[Real Life Magic; Harry Potter&amp;rsquo;s Wand]] [[Movin fridge 😎]] [[Class SKIP Calculator]] [[FLAC]]</description>
+    </item>
+    
+    <item>
+      <title>Morse code Transmitter and Receiver using raspberry pi pico</title>
+      <link>https://nithitsuki.github.io/incomplete-projects/morse-code-transmitter-and-receiver-using-raspberry-pi-pico/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://nithitsuki.github.io/incomplete-projects/morse-code-transmitter-and-receiver-using-raspberry-pi-pico/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Notifications without Addictions</title>
+      <link>https://nithitsuki.github.io/incomplete-projects/notifications-without-addictions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://nithitsuki.github.io/incomplete-projects/notifications-without-addictions/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Real Life Magic: Harry Potter&#39;s Wand</title>
+      <link>https://nithitsuki.github.io/incomplete-projects/real-life-magic-harry-potters-wand/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://nithitsuki.github.io/incomplete-projects/real-life-magic-harry-potters-wand/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

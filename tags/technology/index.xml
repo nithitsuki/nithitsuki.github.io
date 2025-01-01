@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>technology on Nithitsuki&#39;s Website</title>
+    <link>https://nithitsuki.github.io/tags/technology/</link>
+    <description>Recent content in technology on Nithitsuki&#39;s Website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://nithitsuki.github.io/tags/technology/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Tips on creating remarkable (tech) projects</title>
+      <link>https://nithitsuki.github.io/blogs/tips-on-creating-remarkable-tech-projects/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://nithitsuki.github.io/blogs/tips-on-creating-remarkable-tech-projects/</guid>
+      <description>When it comes to creating Tech projects, most are created with one of these 2 reasons in mind:
+ Out of Passion Out of necessity (school/for your resume/work)  Though I have (as of writing) always started projects out of passion, I have also been interested in making them more useful to me by enhancing my portfolio (resume) or by creating a more marketable product</description>
+    </item>
+    
+  </channel>
+</rss>
