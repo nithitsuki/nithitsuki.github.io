@@ -1,6 +1,0 @@
-baseurl = 'https://nithitsuki.github.io/'
-languagecode = 'en-us'
-title = "nithitsuki's website"
-theme = 'hugino'
-relativeurls = false
-#uglyurls = true
