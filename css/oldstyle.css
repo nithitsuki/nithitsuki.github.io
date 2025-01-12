@@ -1,0 +1,247 @@
+/* styles.css */
+
+body {
+    /* ye-olde-threme */
+    /* background-color: #f6eee3;
+    --color: rgba(114, 114, 114, 0.3); */
+
+    font-family: "Deneane", "Righteous", serif;
+
+    /* normal threme */
+    font-family: Arial, sans-serif;
+    /* background-color: #b6d8d7; */
+    /* background-color: #ceeaea; */
+    --color: rgba(114, 114, 114, 0.3);
+
+    /* Dark threme */
+    /* background-color: #191a1a;
+    --color: #353838;
+     */
+
+
+/* 
+    background-image:
+        linear-gradient(0deg, transparent 24%, var(--color) 25%, var(--color) 26%, transparent 27%, transparent 74%, var(--color) 75%, var(--color) 76%, transparent 77%, transparent),
+        linear-gradient(90deg, transparent 24%, var(--color) 25%, var(--color) 26%, transparent 27%, transparent 74%, var(--color) 75%, var(--color) 76%, transparent 77%, transparent);
+    background-size: 3.4rem 3.4rem; */
+
+
+    /* background-color: #e5e5f7; */
+    /* opacity: 1;
+    background-image:  radial-gradient(#444cf7 0.8500000000000001px, transparent 0.8500000000000001px), radial-gradient(#444cf7 0.8500000000000001px, rgb(3, 0, 15) #ceeaea #e5e5f7 0.8500000000000001px);
+    background-size: 34px 34px;
+    background-position: 0 0,17px 17px; */
+
+    /* Sky theme */
+    /* background-image: url('https://maphren.neocities.org/imgs/grasssky.jpg');
+    background-size: cover; */
+
+
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    /* color: #1d1e2c; */
+    color: #9095df;
+    text-align: center;
+    padding: 0.2rem;
+}
+
+h2 {
+    padding-bottom: 0.25rem;
+    margin-bottom: 0.25rem;
+}
+
+h3 {
+    margin-top: 0.8;
+    font-size: 1.39rem;
+    margin-bottom: 0.2%;
+}
+
+h4 {
+    margin: 0.5rem;
+    font-size: 1.4rem;
+}
+
+footer {
+    font-size: 70%;
+    /* color: #1d1e2c; */
+    color: #9095df;
+    text-align: center;
+    padding: 1.7rem;
+}
+
+main {
+    padding-left: 1.7rem;
+    padding-right: 1.7rem;
+    max-width: 68rem;
+    margin: auto;
+}
+
+h1 {
+    /* text-align: center; */
+    /* padding-bottom: 0.25rem; */
+    margin-bottom: 0rem;
+    margin-top: 3px;
+}
+
+li {
+    margin-bottom: 1%;
+    font-size: 1.375rem;
+}
+.center {
+    display: block;
+    margin: 0 auto;
+}
+
+p {
+    font-size: 1.375rem;
+    /* color: #1d1e2c; */
+    color: #9095df;
+    margin: 0rem;
+}
+
+pre,
+code,
+element {
+    color: white;
+    /* background-color: #3f4a4a; */
+    background-color: #272822;
+    font-size: 1rem;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #d4050cc9;
+    /* Set the color on hover */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+    body {
+        font-family: "Deneane", "Righteous", serif;
+        font-family: Arial, sans-serif;
+        background-color: #ceeaea;
+        --color: rgba(114, 114, 114, 0.3);
+        /* background-image:
+            linear-gradient(0deg, transparent 24%, var(--color) 25%, var(--color) 26%, transparent 27%, transparent 74%, var(--color) 75%, var(--color) 76%, transparent 77%, transparent),
+            linear-gradient(90deg, transparent 24%, var(--color) 25%, var(--color) 26%, transparent 27%, transparent 74%, var(--color) 75%, var(--color) 76%, transparent 77%, transparent);*/
+        /* background-size: 2.344rem 2.344rem; */
+        background-size: 2rem 2rem;
+        margin: 0;
+        padding: 0;
+    }
+    header {
+        color: #1d1e2c;
+        text-align: center;
+        padding: 0.142rem;
+    }
+
+    h2 {
+        padding-bottom: 0.178rem;
+        margin-bottom: 0.178rem;
+    }
+
+    
+h3 {
+    margin-top: 0.8;
+    font-size: 0.98rem;
+    margin-bottom: 0.2%;
+}
+
+    h4 {
+        margin: 0.357rem;
+        font-size: 1rem;
+    }
+
+    footer {
+        font-size: 70%;
+        color: #1d1e2c;
+        text-align: center;
+        padding: 1.21rem;
+    }
+
+    main {
+        padding-left: 1.21rem;
+        padding-right: 1.21rem;
+        max-width: 68rem;
+        margin: auto;
+    }
+
+    h1 {
+        /* text-align: center; */
+        /* padding-bottom: 0.25rem; */
+        margin-bottom: 0rem;
+        margin-top: 3px;
+    }
+
+    li {
+        margin-bottom: 1%;
+        font-size: 0.982rem;
+    }
+
+    .center {
+        display: block;
+        margin: 0 auto;
+    }
+
+    p {
+        font-size: 1rem;
+        color: #1d1e2c;
+        margin: 0rem;
+    }
+
+    pre,
+    code,
+    element {
+        color: white;
+        background-color: #272822;
+        font-size: 0.8rem;
+    }
+}

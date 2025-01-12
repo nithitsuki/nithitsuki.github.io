@@ -1,0 +1,4 @@
+[ZoneTransfer]
+ZoneId=3
+ReferrerUrl=https://github.com/nithitsuki/Arduino-IDE-Morse-Code/releases/tag/1.0
+HostUrl=https://objects.githubusercontent.com/github-production-release-asset-2e65be/845549865/1fdfce55-8ece-48a7-aaa1-0da12f371eee?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=releaseassetproduction%2F20250107%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250107T043224Z&X-Amz-Expires=300&X-Amz-Signature=cc447ef74697007d67ab5cec98620b1598c706c2d8f7d9917c8f18aab9f80100&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%3DMorse.h&response-content-type=application%2Foctet-stream

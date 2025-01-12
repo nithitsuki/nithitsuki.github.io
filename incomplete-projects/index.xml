@@ -1,18 +1,27 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>My Incomplete Projects on nithitsuki&#39;s website</title>
+    <title>My Projects on Nithitsuki&#39;s Website</title>
     <link>https://nithitsuki.github.io/incomplete-projects/</link>
-    <description>Recent content in My Incomplete Projects on nithitsuki&#39;s website</description>
+    <description>Recent content in My Projects on Nithitsuki&#39;s Website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 02 Oct 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://nithitsuki.github.io/incomplete-projects/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Arduino IDE Morse Code Transmitter</title>
+      <title>Arduino IDE Morse Code Library</title>
       <link>https://nithitsuki.github.io/incomplete-projects/arduino-ide-morse-code-transmitter/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://nithitsuki.github.io/incomplete-projects/arduino-ide-morse-code-transmitter/</guid>
+      <description>The Simplest and most well documented Morse Code Library for the Arduino IDE! wanna skip to the installation? scroll down you lazy. &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; How it all started (a memoir)  When I joined Amrita University in fall 2024, one of my first memories was a hackathon called Electronika—an overnight event with Arduinos, late-night coffee, and a cool prize pool. Though I never participated (^_^;), it’s how I met two friends. One of them teamed up with me to practice, compete, and (hopefully) win.</description>
+    </item>
+    
+    <item>
+      <title>C.A.R.E Bot</title>
+      <link>https://nithitsuki.github.io/incomplete-projects/c.a.r.e-bot/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://nithitsuki.github.io/incomplete-projects/c.a.r.e-bot/</guid>
       <description></description>
     </item>
     
@@ -36,29 +45,11 @@
     </item>
     
     <item>
-      <title>hd44780 interfacing Library for pico</title>
-      <link>https://nithitsuki.github.io/incomplete-projects/hd44780-interfacing-library-for-pico/</link>
+      <title>hd44780 Library for Raspberry Pi pico</title>
+      <link>https://nithitsuki.github.io/incomplete-projects/hd44780-library-for-raspberry-pi-pico/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://nithitsuki.github.io/incomplete-projects/hd44780-interfacing-library-for-pico/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Morse code Transmitter and Receiver using raspberry pi pico</title>
-      <link>https://nithitsuki.github.io/incomplete-projects/morse-code-transmitter-and-receiver-using-raspberry-pi-pico/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://nithitsuki.github.io/incomplete-projects/morse-code-transmitter-and-receiver-using-raspberry-pi-pico/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Moving Fridge</title>
-      <link>https://nithitsuki.github.io/incomplete-projects/movin-fridge-/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://nithitsuki.github.io/incomplete-projects/movin-fridge-/</guid>
+      <guid>https://nithitsuki.github.io/incomplete-projects/hd44780-library-for-raspberry-pi-pico/</guid>
       <description></description>
     </item>
     
@@ -72,20 +63,11 @@
     </item>
     
     <item>
-      <title>Notifications without Addictions</title>
-      <link>https://nithitsuki.github.io/incomplete-projects/notifications-without-addictions/</link>
+      <title>Real Life Harry Potter&#39;s Wand</title>
+      <link>https://nithitsuki.github.io/incomplete-projects/real-life-harry-potters-wand/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://nithitsuki.github.io/incomplete-projects/notifications-without-addictions/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Real Life Magic: Harry Potter&#39;s Wand</title>
-      <link>https://nithitsuki.github.io/incomplete-projects/real-life-magic-harry-potters-wand/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://nithitsuki.github.io/incomplete-projects/real-life-magic-harry-potters-wand/</guid>
+      <guid>https://nithitsuki.github.io/incomplete-projects/real-life-harry-potters-wand/</guid>
       <description></description>
     </item>
     
