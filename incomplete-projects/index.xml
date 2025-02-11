@@ -2,83 +2,74 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>My Projects on Nithitsuki&#39;s Website</title>
-    <link>https://nithitsuki.github.io/incomplete-projects/</link>
+    <link>https://nithitsuki.com/incomplete-projects/</link>
     <description>Recent content in My Projects on Nithitsuki&#39;s Website</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 02 Oct 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://nithitsuki.github.io/incomplete-projects/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 01 Jan 0001 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://nithitsuki.com/incomplete-projects/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Arduino IDE Morse Code Library</title>
-      <link>https://nithitsuki.github.io/incomplete-projects/arduino-ide-morse-code-transmitter/</link>
+      <link>https://nithitsuki.com/incomplete-projects/arduino-ide-morse-code-transmitter/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://nithitsuki.github.io/incomplete-projects/arduino-ide-morse-code-transmitter/</guid>
-      <description>The Simplest and most well documented Morse Code Library for the Arduino IDE! wanna skip to the installation? scroll down you lazy. &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; How it all started (a memoir)  When I joined Amrita University in fall 2024, one of my first memories was a hackathon called Electronika—an overnight event with Arduinos, late-night coffee, and a cool prize pool. Though I never participated (^_^;), it’s how I met two friends. One of them teamed up with me to practice, compete, and (hopefully) win.</description>
+      <guid>https://nithitsuki.com/incomplete-projects/arduino-ide-morse-code-transmitter/</guid>
+      <description>&lt;h2 id=&#34;the-simplest-and-most-well-documented-morse-code-library-for-the-arduino-ide&#34;&gt;The Simplest and most well documented Morse Code Library for the Arduino IDE!&lt;/h2&gt;&#xA;&lt;p&gt;wanna skip to the installation? scroll down you lazy.&#xA;&lt;br style=&#34;line-height: 1.9em;&#34;&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;hahahugoshortcode24s1hbhb-how-it-all-started-a-memoir&#34;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; How it all started (a memoir)&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;When I joined Amrita University in fall 2024, one of my first memories was a hackathon called Electronika—an overnight event with Arduinos, late-night coffee, and a cool prize pool. Though I never participated (^_^;), it’s how I met two friends. One of them teamed up with me to practice, compete, and (hopefully) win.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;hahahugoshortcode24s2hbhb-the-spark-for-the-library&#34;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; The Spark for the Library&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;My teammate was seriously dedicated to the hackathon, borderline scary levels of focus. Inspired, I brought my Arduino to campus, and during practice, we had the idea to transmit Morse code—something simple like SOS. That’s when I thought of creating functions to generalize Morse code transmission, like a library. I went home, whipped up dot(), dash(), and char_to_morse() for lowercase letters, and threw it on GitHub for a few months.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;hahahugoshortcode24s3hbhb--a-semester-later&#34;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;  A Semester Later&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Fast forward to the end of the semester. With a determination to finish something for once, I decided to revisit my simple code. I polished it up (re-wrote the entire thing from scratch), added lots of features, documented it thoroughly, and made sure it was easy for anyone to use.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;hahahugoshortcode24s4hbhb--the-result-my-first-ever-tech-project&#34;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;  The Result: My First Ever Tech Project&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;And here we are! I’m proud to say that this is the only Morse code library for Arduino I know of, which is both easy to install, well-documented, and simple to use. It might not have been a huge technical challenge, but the real victory for me was in finishing it and ending up with a polished product—a far cry from the rough draft it started as.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;hahahugoshortcode24s5hbhb--looking-ahead&#34;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;  Looking Ahead&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;This project was my first real tech endeavor, and while I’ve still got plenty of unfinished projects on my website (as you can see in the projects page!), this is one that I’m proud of. I hope this library helps you as much as it’s helped me, and I look forward to finishing the rest of my projects the same way!&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;br style=&#34;line-height: 1.9em;&#34;&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;about-the-library&#34;&gt;About the Library&lt;/h2&gt;&#xA;&lt;p&gt;This library is designed to be as simple as possible while still providing everything you need to send Morse code signals reliably and efficiently. Whether you&amp;rsquo;re a beginner or an experienced maker, this library can help you quickly get your Morse code project up and running.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>C.A.R.E Bot</title>
-      <link>https://nithitsuki.github.io/incomplete-projects/c.a.r.e-bot/</link>
+      <link>https://nithitsuki.com/incomplete-projects/c.a.r.e-bot/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://nithitsuki.github.io/incomplete-projects/c.a.r.e-bot/</guid>
+      <guid>https://nithitsuki.com/incomplete-projects/c.a.r.e-bot/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Class SKIP Calculator</title>
-      <link>https://nithitsuki.github.io/incomplete-projects/class-skip-calculator/</link>
+      <link>https://nithitsuki.com/incomplete-projects/class-skip-calculator/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://nithitsuki.github.io/incomplete-projects/class-skip-calculator/</guid>
-      <description>Idea
- Enter minimum percentage required to pass Enter Number of days attended Enter Number of days skipped  print + current attendance percentage: + if &amp;lt;75%, how many more classes needed to pass the course + if &amp;gt; 75, how many more classes to bunk before failing + how many more classes to attend to bunk certain no. classes + Eg: currently can bunk 1, need to attend 3 more to bunk 2 classes</description>
+      <guid>https://nithitsuki.com/incomplete-projects/class-skip-calculator/</guid>
+      <description>&lt;p&gt;Idea&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Enter minimum percentage required to pass&lt;/li&gt;&#xA;&lt;li&gt;Enter Number of days attended&lt;/li&gt;&#xA;&lt;li&gt;Enter Number of days skipped&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;print&#xA;+ current attendance percentage:&#xA;+ if &amp;lt;75%, how many more classes needed to pass the course&#xA;+ if &amp;gt; 75, how many more classes to bunk before failing&#xA;+ how many more classes to attend to bunk certain no. classes&#xA;+ Eg: currently can bunk 1, need to attend 3 more to bunk 2 classes&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Conference Hall Scheduler</title>
-      <link>https://nithitsuki.github.io/incomplete-projects/conference_hall_scheduler/</link>
+      <link>https://nithitsuki.com/incomplete-projects/conference_hall_scheduler/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://nithitsuki.github.io/incomplete-projects/conference_hall_scheduler/</guid>
+      <guid>https://nithitsuki.com/incomplete-projects/conference_hall_scheduler/</guid>
       <description></description>
     </item>
-    
+    <item>
+      <title>Converting My 2DS to Type C</title>
+      <link>https://nithitsuki.com/incomplete-projects/converting-my-2ds-to-type-c/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://nithitsuki.com/incomplete-projects/converting-my-2ds-to-type-c/</guid>
+      <description></description>
+    </item>
     <item>
       <title>FLAC</title>
-      <link>https://nithitsuki.github.io/incomplete-projects/flac/</link>
+      <link>https://nithitsuki.com/incomplete-projects/flac/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://nithitsuki.github.io/incomplete-projects/flac/</guid>
+      <guid>https://nithitsuki.com/incomplete-projects/flac/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>hd44780 Library for Raspberry Pi pico</title>
-      <link>https://nithitsuki.github.io/incomplete-projects/hd44780-library-for-raspberry-pi-pico/</link>
+      <link>https://nithitsuki.com/incomplete-projects/hd44780-library-for-raspberry-pi-pico/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://nithitsuki.github.io/incomplete-projects/hd44780-library-for-raspberry-pi-pico/</guid>
+      <guid>https://nithitsuki.com/incomplete-projects/hd44780-library-for-raspberry-pi-pico/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Navigate And Plan Personalized Alerts (NAPPA)</title>
-      <link>https://nithitsuki.github.io/incomplete-projects/nappa/</link>
+      <link>https://nithitsuki.com/incomplete-projects/nappa/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://nithitsuki.github.io/incomplete-projects/nappa/</guid>
+      <guid>https://nithitsuki.com/incomplete-projects/nappa/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Real Life Harry Potter&#39;s Wand</title>
-      <link>https://nithitsuki.github.io/incomplete-projects/real-life-harry-potters-wand/</link>
+      <link>https://nithitsuki.com/incomplete-projects/real-life-harry-potters-wand/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://nithitsuki.github.io/incomplete-projects/real-life-harry-potters-wand/</guid>
+      <guid>https://nithitsuki.com/incomplete-projects/real-life-harry-potters-wand/</guid>
       <description></description>
     </item>
-    
   </channel>
 </rss>

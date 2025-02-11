@@ -1,22 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>website, tutorials on Nithitsuki&#39;s Website</title>
-    <link>https://nithitsuki.github.io/tags/website-tutorials/</link>
-    <description>Recent content in website, tutorials on Nithitsuki&#39;s Website</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://nithitsuki.github.io/tags/website-tutorials/index.xml" rel="self" type="application/rss+xml" />
+    <title>Website, Tutorials on Nithitsuki&#39;s Website</title>
+    <link>https://nithitsuki.com/tags/website-tutorials/</link>
+    <description>Recent content in Website, Tutorials on Nithitsuki&#39;s Website</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://nithitsuki.com/tags/website-tutorials/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Connect to WiFi from Linux command line</title>
-      <link>https://nithitsuki.github.io/tutorials/connect-to-wifi-from-linux-command-line-for-newbies/</link>
+      <link>https://nithitsuki.com/tutorials/connect-to-wifi-from-linux-command-line-for-newbies/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://nithitsuki.github.io/tutorials/connect-to-wifi-from-linux-command-line-for-newbies/</guid>
-      <description>Preface This method uses WPA_supplicant, for other methods involving iwctl and the alike, checkout this article on the Archwiki
-Objective Configure and Connect to WiFi only using command line utilities.
-Requirements [Root access] or [access to sudo] wpa_supplicant,net-tools and dhclient(or DHCPCD) aldready installed on your computer. wifi support on your laptop/pc
-additonal info This guide will also go through some common problems while connecting to a WiFi. Look at the page-end if you face any issues dhclient or DHCPCD are not required if you don&amp;rsquo;t want to connect to the internet or if you want to assign the ip adress manually wifi is not necessary since you can configure the software and connect later you can also look up more resources and documents about the software used in this article from the sources listed below</description>
+      <guid>https://nithitsuki.com/tutorials/connect-to-wifi-from-linux-command-line-for-newbies/</guid>
+      <description>&lt;h3 id=&#34;preface&#34;&gt;Preface&lt;/h3&gt;&#xA;&lt;p&gt;This method uses WPA_supplicant, for other methods involving iwctl and the alike, checkout &lt;a href=&#34;https://wiki.archlinux.org/title/Network_configuration/Wireless#iw&#34;&gt;this article&lt;/a&gt; on the Archwiki&lt;/p&gt;&#xA;&lt;h3 id=&#34;objective&#34;&gt;Objective&lt;/h3&gt;&#xA;&lt;p&gt;Configure and Connect to WiFi only using command line utilities.&lt;/p&gt;&#xA;&lt;h3 id=&#34;requirements&#34;&gt;Requirements&lt;/h3&gt;&#xA;&lt;p&gt;[Root access] or [access to sudo]&#xA;wpa_supplicant,net-tools and dhclient(or DHCPCD) aldready installed on your computer.&#xA;wifi support on your laptop/pc&lt;/p&gt;&#xA;&lt;h3 id=&#34;additonal-info&#34;&gt;additonal info&lt;/h3&gt;&#xA;&lt;p&gt;This guide will also go through some common problems while connecting to a WiFi. Look at the page-end if you face any issues&#xA;dhclient or DHCPCD are not required if you don&amp;rsquo;t want to connect to the internet or if you want to assign the ip adress manually&#xA;wifi is not necessary since you can configure the software and connect later&#xA;you can also look up more resources and documents about the software used in this article from the sources listed below&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

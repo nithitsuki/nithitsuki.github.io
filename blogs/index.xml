@@ -2,48 +2,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>My Blog Posts on Nithitsuki&#39;s Website</title>
-    <link>https://nithitsuki.github.io/blogs/</link>
+    <link>https://nithitsuki.com/blogs/</link>
     <description>Recent content in My Blog Posts on Nithitsuki&#39;s Website</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 09 Oct 2022 12:04:08 +0530</lastBuildDate><atom:link href="https://nithitsuki.github.io/blogs/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 09 Oct 2022 12:04:08 +0530</lastBuildDate>
+    <atom:link href="https://nithitsuki.com/blogs/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Software I use and recommend</title>
-      <link>https://nithitsuki.github.io/blogs/how-to-choose-good-software/</link>
+      <link>https://nithitsuki.com/blogs/how-to-choose-good-software/</link>
       <pubDate>Sun, 09 Oct 2022 12:04:08 +0530</pubDate>
-      
-      <guid>https://nithitsuki.github.io/blogs/how-to-choose-good-software/</guid>
-      <description>This is a page I made for the software I use, and think might be useful for others in finding better programs. I&amp;rsquo;m only going to write about programs I have used for a while and tested to be true.
-My &amp;lsquo;Philosophy&amp;rsquo; in choosing good software The software must run well on slow hardware with minimal resources, most users over-estimate the amount of power required to complete simple tasks. So, i usually only seek &amp;ldquo;Minimal&amp;rdquo; and efficiently written software with enough features to get the work done.</description>
+      <guid>https://nithitsuki.com/blogs/how-to-choose-good-software/</guid>
+      <description>&lt;p&gt;This is a page I made for the software I use, and think might be useful for others in finding better programs.&#xA;I&amp;rsquo;m only going to write about programs I have used for a while and tested to be true.&lt;/p&gt;&#xA;&lt;h1 id=&#34;my-philosophy-in-choosing-good-software&#34;&gt;My &amp;lsquo;Philosophy&amp;rsquo; in choosing good software&lt;/h1&gt;&#xA;&lt;p&gt;The software must run well on slow hardware with minimal resources, most users over-estimate the amount of power required to complete simple tasks.&#xA;So, i usually only seek &amp;ldquo;Minimal&amp;rdquo; and efficiently written software with enough features to get the work done.&#xA;If the software is slow to run, even on my main computer, it doesn&amp;rsquo;t get to stay.&#xA;also, most importantly, I &lt;em&gt;ONLY&lt;/em&gt; use &lt;a href=&#34;https://en.wikipedia.org/wiki/Free_and_open-source_software#Privacy_and_security&#34;&gt;FOSS&lt;/a&gt; (Free and Open Source Software). No exceptions. Period.&#xA;&lt;br style=&#34;line-height: 1.9em;&#34;&gt;&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Book Recommendations</title>
-      <link>https://nithitsuki.github.io/blogs/book-recommendations/</link>
+      <link>https://nithitsuki.com/blogs/book-recommendations/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://nithitsuki.github.io/blogs/book-recommendations/</guid>
-      <description>No Title Author     01 Permanent Record Edward Snowden   02 Industrial Society and Its Future Theodore Kaczynski   03 A Hunter-Gatherer&amp;rsquo;s Guide to the 21st Century Heather Heying &amp;amp; Bret Weinstein   04 Atomic Habits James Clear   05 12 Rules for Life Jordan B Peterson   06 Beyond Order Jordan B Peterson   07 Four Thousand Weeks Oliver Burkeman   08 Why We Sleep Matthew Walker   09 SAS Urban Survival Handbook John Lofty Wiseman   10 The Everything Guide to Living off the Grid Terri reid   11 The new complete book of self sufficiency John Seymour   12 Which Comes First: Cardio or Weights Alex Hutchinson   13 The Psychology of Money Morgan Housel   14 Unix and Linux System Administration Handbook Evi Nemeth &amp;amp; Garth Snyder &amp;amp; Trent R Hein &amp;amp; Ben Whaley &amp;amp; Dan Mackin    Manga Recommendations 1 Attack on Titan series 2 Pokemon Adeventures (vol 1 to 14)</description>
+      <guid>https://nithitsuki.com/blogs/book-recommendations/</guid>
+      <description>&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th style=&#34;text-align: center&#34;&gt;No&lt;/th&gt;&#xA;          &lt;th style=&#34;text-align: center&#34;&gt;Title&lt;/th&gt;&#xA;          &lt;th style=&#34;text-align: center&#34;&gt;Author&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;01&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;Permanent Record&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;Edward Snowden&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;02&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;Industrial Society and Its Future&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;Theodore Kaczynski&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;03&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;A Hunter-Gatherer&amp;rsquo;s Guide to the 21st Century&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;Heather Heying &amp;amp; Bret Weinstein&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;04&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;Atomic Habits&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;James Clear&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;05&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;12 Rules for Life&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;Jordan B Peterson&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;06&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;Beyond Order&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;Jordan B Peterson&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;07&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;Four Thousand Weeks&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;Oliver Burkeman&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;08&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;Why We Sleep&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;Matthew Walker&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;09&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;SAS Urban Survival Handbook&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;John Lofty Wiseman&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;10&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;The Everything Guide to Living off the Grid&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;Terri reid&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;11&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;The new complete book of self sufficiency&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;John Seymour&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;12&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;Which Comes First: Cardio or Weights&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;Alex Hutchinson&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;13&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;The Psychology of Money&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;Morgan Housel&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;14&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;Unix and Linux System Administration Handbook&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;Evi Nemeth &amp;amp; Garth Snyder &amp;amp; Trent R Hein &amp;amp; Ben Whaley &amp;amp; Dan Mackin&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;h1 id=&#34;manga-recommendations&#34;&gt;Manga Recommendations&lt;/h1&gt;&#xA;&lt;p&gt;1 Attack on Titan series&#xA;2 Pokemon Adeventures (vol 1 to 14)&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>On compartmentalising online accounts</title>
-      <link>https://nithitsuki.github.io/blogs/on-compartmentalising-online-accounts/</link>
+      <link>https://nithitsuki.com/blogs/on-compartmentalising-online-accounts/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://nithitsuki.github.io/blogs/on-compartmentalising-online-accounts/</guid>
+      <guid>https://nithitsuki.com/blogs/on-compartmentalising-online-accounts/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Tips on creating remarkable (tech) projects</title>
-      <link>https://nithitsuki.github.io/blogs/tips-on-creating-remarkable-tech-projects/</link>
+      <link>https://nithitsuki.com/blogs/tips-on-creating-remarkable-tech-projects/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://nithitsuki.github.io/blogs/tips-on-creating-remarkable-tech-projects/</guid>
-      <description>When it comes to creating Tech projects, most are created with one of these 2 reasons in mind:
- Out of Passion Out of necessity (school/for your resume/work)  Though I have (as of writing) always started projects out of passion, I have also been interested in making them more useful to me by enhancing my portfolio (resume) or by creating a more marketable product</description>
+      <guid>https://nithitsuki.com/blogs/tips-on-creating-remarkable-tech-projects/</guid>
+      <description>&lt;p&gt;When it comes to creating Tech projects, most are created with one of these 2 reasons in mind:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Out of Passion&lt;/li&gt;&#xA;&lt;li&gt;Out of necessity (school/for your resume/work)&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;Though I have (as of writing) always started projects out of passion,&#xA;I have also been interested in making them more useful to me by enhancing my portfolio (resume) or by creating a more marketable product&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

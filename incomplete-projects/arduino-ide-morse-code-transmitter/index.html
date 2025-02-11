@@ -10,14 +10,14 @@
 </head>
 <body>
     <header>
-        <h1 style=" margin-bottom: 0.25em;"><a href="https://nithitsuki.github.io/">Nithitsuki&#39;s Website</a></h1>
+        <h1 style=" margin-bottom: 0.25em;"><a href="https://nithitsuki.com/">Nithitsuki&#39;s Website</a></h1>
     </header>
     <p style="text-align: center; word-spacing: 0.925em;">
-        <a href="https://nithitsuki.github.io/incomplete-projects">Projects</a>
-        <a href="https://nithitsuki.github.io/tutorials">Tutorials</a>
-        <a href="https://nithitsuki.github.io/about-me" style="word-spacing: normal;">About-Me</a>
-        <a href="https://nithitsuki.github.io/blogs">Blogs</a>
-        <a href="https://nithitsuki.github.io/photography">Photography</a>
+        <a href="https://nithitsuki.com/incomplete-projects">Projects</a>
+        <a href="https://nithitsuki.com/tutorials">Tutorials</a>
+        <a href="https://nithitsuki.com/about-me" style="word-spacing: normal;">About-Me</a>
+        <a href="https://nithitsuki.com/blogs">Blogs</a>
+        <a href="https://nithitsuki.com/photography">Photography</a>
     </p>
     <hr>
     <main>
@@ -27,29 +27,28 @@
     <div><h2 id="the-simplest-and-most-well-documented-morse-code-library-for-the-arduino-ide">The Simplest and most well documented Morse Code Library for the Arduino IDE!</h2>
 <p>wanna skip to the installation? scroll down you lazy.
 <br style="line-height: 1.9em;"></p>
-<h3 id="hahahugoshortcode-s1-hbhb-how-it-all-started-a-memoir">&nbsp;&nbsp;&nbsp;&nbsp; How it all started (a memoir)</h3>
+<h3 id="hahahugoshortcode24s1hbhb-how-it-all-started-a-memoir">&nbsp;&nbsp;&nbsp;&nbsp; How it all started (a memoir)</h3>
 <ul>
 <li>When I joined Amrita University in fall 2024, one of my first memories was a hackathon called Electronika—an overnight event with Arduinos, late-night coffee, and a cool prize pool. Though I never participated (^_^;), it’s how I met two friends. One of them teamed up with me to practice, compete, and (hopefully) win.</li>
 </ul>
-<h3 id="hahahugoshortcode-s2-hbhb-the-spark-for-the-library">&nbsp;&nbsp;&nbsp;&nbsp; The Spark for the Library</h3>
+<h3 id="hahahugoshortcode24s2hbhb-the-spark-for-the-library">&nbsp;&nbsp;&nbsp;&nbsp; The Spark for the Library</h3>
 <ul>
 <li>My teammate was seriously dedicated to the hackathon, borderline scary levels of focus. Inspired, I brought my Arduino to campus, and during practice, we had the idea to transmit Morse code—something simple like SOS. That’s when I thought of creating functions to generalize Morse code transmission, like a library. I went home, whipped up dot(), dash(), and char_to_morse() for lowercase letters, and threw it on GitHub for a few months.</li>
 </ul>
-<h3 id="hahahugoshortcode-s3-hbhb--a-semester-later">&nbsp;&nbsp;&nbsp;&nbsp;  A Semester Later</h3>
+<h3 id="hahahugoshortcode24s3hbhb--a-semester-later">&nbsp;&nbsp;&nbsp;&nbsp;  A Semester Later</h3>
 <ul>
 <li>Fast forward to the end of the semester. With a determination to finish something for once, I decided to revisit my simple code. I polished it up (re-wrote the entire thing from scratch), added lots of features, documented it thoroughly, and made sure it was easy for anyone to use.</li>
 </ul>
-<h3 id="hahahugoshortcode-s4-hbhb--the-result-my-first-ever-tech-project">&nbsp;&nbsp;&nbsp;&nbsp;  The Result: My First Ever Tech Project</h3>
+<h3 id="hahahugoshortcode24s4hbhb--the-result-my-first-ever-tech-project">&nbsp;&nbsp;&nbsp;&nbsp;  The Result: My First Ever Tech Project</h3>
 <ul>
 <li>And here we are! I’m proud to say that this is the only Morse code library for Arduino I know of, which is both easy to install, well-documented, and simple to use. It might not have been a huge technical challenge, but the real victory for me was in finishing it and ending up with a polished product—a far cry from the rough draft it started as.</li>
 </ul>
-<h3 id="hahahugoshortcode-s5-hbhb--looking-ahead">&nbsp;&nbsp;&nbsp;&nbsp;  Looking Ahead</h3>
+<h3 id="hahahugoshortcode24s5hbhb--looking-ahead">&nbsp;&nbsp;&nbsp;&nbsp;  Looking Ahead</h3>
 <ul>
 <li>This project was my first real tech endeavor, and while I’ve still got plenty of unfinished projects on my website (as you can see in the projects page!), this is one that I’m proud of. I hope this library helps you as much as it’s helped me, and I look forward to finishing the rest of my projects the same way!</li>
 </ul>
 <br style="line-height: 1.9em;">
 <hr>
-<!-- add gifs -->
 <h2 id="about-the-library">About the Library</h2>
 <p>This library is designed to be as simple as possible while still providing everything you need to send Morse code signals reliably and efficiently. Whether you&rsquo;re a beginner or an experienced maker, this library can help you quickly get your Morse code project up and running.</p>
 <br style="line-height: 1.9em;">
@@ -69,7 +68,6 @@
 which you should download from the <a href="https://github.com/nithitsuki/Arduino-IDE-Morse-Code/releases/latest">Github Release page (click me)</a> or <a href="/Morse.h">Here (click me)</a>, Make sure to download the Morse.h file (as a .h file, and not a text file) if your browser decides to display it</li>
 <li>That’s it! No complicated installations or setup steps.</li>
 </ol>
-<!-- <br style="line-height: 1.9em;"> -->
 <hr>
 <h2 id="usage">Usage:</h2>
 <h2 id="setting-up-your-project">Setting Up Your Project</h2>
@@ -79,11 +77,11 @@ which you should download from the <a href="https://github.com/nithitsuki/Arduin
 The output pin for Morse code transmission is set by the <code>MORSE_PIN</code> variable.<br>
 It’s already predefined in the <code>Morse.h</code> file, so please dont try to redefine it. (int MORSE_pin)</li>
 </ul>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-cpp" data-lang="cpp"><span style="color:#75715e">//Set the pin that will output the Morse code
-</span><span style="color:#75715e"></span>MORSE_PIN <span style="color:#f92672">=</span> <span style="color:#ae81ff">13</span>;
-<span style="color:#75715e">//Make Sure to set said morse pin to output
-</span><span style="color:#75715e"></span>pinMode(MORSE_PIN, OUTPUT);
-</code></pre></div><ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span><span style="color:#75715e">//Set the pin that will output the Morse code
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>MORSE_PIN <span style="color:#f92672">=</span> <span style="color:#ae81ff">13</span>;
+</span></span><span style="display:flex;"><span><span style="color:#75715e">//Make Sure to set said morse pin to output
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>pinMode(MORSE_PIN, OUTPUT);
+</span></span></code></pre></div><ul>
 <li><strong>Set the Transmission Speed:</strong><br>
 The <code>UNIT_TIME</code> variable defines the speed of the Morse code transmission in milliseconds.<br>
 The dot (or &ldquo;dit&rdquo;) duration is calculated based on the formula <code>1200 / wpm</code>, where <code>wpm</code> is the speed in Words Per Minute.
@@ -91,10 +89,10 @@ The default speed is already defined, so there’s no need to manually adjust it
 <strong>WARNING</strong>: Do <strong>not</strong> redefine UNIT_TIME in your sketch. The variable is already set in the header.
 <strong>WARNING</strong>: Its value must NOT be lower than 0</li>
 </ul>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-cpp" data-lang="cpp"><span style="color:#75715e">// Adjust the time of the dot
-</span><span style="color:#75715e">// (unit time in milliseconds)
-</span><span style="color:#75715e"></span>UNIT_TIME <span style="color:#f92672">=</span> <span style="color:#ae81ff">150</span>; 
-</code></pre></div><hr>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span><span style="color:#75715e">// Adjust the time of the dot
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">// (unit time in milliseconds)
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>UNIT_TIME <span style="color:#f92672">=</span> <span style="color:#ae81ff">150</span>; 
+</span></span></code></pre></div><hr>
 <h2 id="core-functions">Core Functions</h2>
 <p>The library offers a few core functions that make transmitting Morse code easy and efficient:</p>
 <ul>
@@ -122,26 +120,26 @@ It automatically handles spaces between words, which are represented by a longer
 <hr>
 <h3 id="example-code">Example Code</h3>
 <p>Here’s a simple example that demonstrates how to use the library to send Morse code:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-cpp" data-lang="cpp"><span style="color:#75715e">#include</span> <span style="color:#75715e">&#34;Morse.h&#34;</span><span style="color:#75715e">
-</span><span style="color:#75715e"></span>
-<span style="color:#66d9ef">void</span> <span style="color:#a6e22e">setup</span>() {
- <span style="color:#75715e">// Set the output pin and transmission speed
-</span><span style="color:#75715e"></span> <span style="color:#75715e">// Pin 13 will output the Morse signals
-</span><span style="color:#75715e"></span> MORSE_PIN <span style="color:#f92672">=</span> <span style="color:#ae81ff">13</span>;
- <span style="color:#75715e">//Make Sure to set said morse pin to output
-</span><span style="color:#75715e"></span> pinMode(MORSE_PIN, OUTPUT);
-
-<span style="color:#75715e">// Time of dot in milliseconds
-</span><span style="color:#75715e">//UNIT_TIME = (1200 / wpm) (8wpm default)
-</span><span style="color:#75715e"></span> UNIT_TIME <span style="color:#f92672">=</span> <span style="color:#ae81ff">150</span>;
-}
-
-<span style="color:#66d9ef">void</span> <span style="color:#a6e22e">loop</span>() {
- <span style="color:#75715e">// Send the string &#34;HELLO WORLD&#34;
-</span><span style="color:#75715e"></span> string_to_morse(<span style="color:#e6db74">&#34;HELLO WORLD&#34;</span>); 
- <span style="color:#75715e">// This will repeatedly transmit &#34;HELLO WORLD&#34;
-</span><span style="color:#75715e"></span>}
-</code></pre></div><h3 id="explanation-of-the-code">Explanation of the Code:</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span><span style="color:#75715e">#include</span> <span style="color:#75715e">&#34;Morse.h&#34;</span><span style="color:#75715e">
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">void</span> <span style="color:#a6e22e">setup</span>() {
+</span></span><span style="display:flex;"><span> <span style="color:#75715e">// Set the output pin and transmission speed
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span> <span style="color:#75715e">// Pin 13 will output the Morse signals
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span> MORSE_PIN <span style="color:#f92672">=</span> <span style="color:#ae81ff">13</span>;
+</span></span><span style="display:flex;"><span> <span style="color:#75715e">//Make Sure to set said morse pin to output
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span> pinMode(MORSE_PIN, OUTPUT);
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">// Time of dot in milliseconds
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">//UNIT_TIME = (1200 / wpm) (8wpm default)
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span> UNIT_TIME <span style="color:#f92672">=</span> <span style="color:#ae81ff">150</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">void</span> <span style="color:#a6e22e">loop</span>() {
+</span></span><span style="display:flex;"><span> <span style="color:#75715e">// Send the string &#34;HELLO WORLD&#34;
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span> string_to_morse(<span style="color:#e6db74">&#34;HELLO WORLD&#34;</span>); 
+</span></span><span style="display:flex;"><span> <span style="color:#75715e">// This will repeatedly transmit &#34;HELLO WORLD&#34;
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>}
+</span></span></code></pre></div><h3 id="explanation-of-the-code">Explanation of the Code:</h3>
 <ul>
 <li>In the <code>setup()</code> function, we configure the output pin (<code>MORSE_PIN</code>) and the transmission speed (<code>UNIT_TIME</code>).</li>
 <li>The <code>loop()</code> function continuously transmits the string &ldquo;HELLO WORLD&rdquo; using the <code>string_to_morse()</code> function. Each character is converted to Morse code and transmitted one after another.</li>
@@ -153,7 +151,7 @@ It automatically handles spaces between words, which are represented by a longer
 <li><strong>Letters</strong>: <code>a-z</code> (both uppercase and lowercase)</li>
 <li><strong>Digits</strong>: <code>0-9</code></li>
 <li><strong>Space</strong>: Used to represent a word space in Morse code.</li>
-<li><strong>few special chaarcters</strong> . , ? ' ! / ( ) &amp; : ; = + - \ &quot; $ _</li>
+<li><strong>few special chaarcters</strong> . , ? &rsquo; ! / ( ) &amp; : ; = + - \ &quot; $ _</li>
 </ul>
 <hr>
 <h3 id="conclusion-tldr">Conclusion (TL;DR)</h3>
