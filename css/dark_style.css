@@ -1,0 +1,73 @@
+
+body {
+    font-family: Arial, sans-serif;
+    /* color: rgba(114, 114, 114, 0.3); */
+    opacity: 1;
+    
+    /* background-image:  radial-gradient(#444cf7 0.8500000000000001px, transparent 0.8500000000000001px), radial-gradient(#444cf7 0.8500000000000001px, rgb(3, 0, 15) 0.8500000000000001px);
+    background-size: 5rem 5rem;
+    background-position: 0 0,2.5rem 2.5rem; */
+
+    background-image: url(/test.gif);
+    background-size: 30%;
+    background-position: 10%;
+    background-color: #000000bd;
+    background-blend-mode: hard-light;
+
+    /* background-image:
+        linear-gradient(0deg, transparent 24%, var(--color) 25%, var(--color) 26%, transparent 27%, transparent 74%, var(--color) 75%, var(--color) 76%, transparent 77%, transparent),
+        linear-gradient(90deg, transparent 24%, var(--color) 25%, var(--color) 26%, transparent 27%, transparent 74%, var(--color) 75%, var(--color) 76%, transparent 77%, transparent);
+    background-size: 3.4rem 3.4rem; */
+
+
+    margin: 0;
+    padding: 0;
+    /* color: #7b70e2; */
+    color: #afc0ff;
+    /* text-shadow: 1rem 1rem 2rem #ffffff; */
+    /* text-shadow: 0.02rem 0.02rem 0.02rem rgb(255, 81, 153), 0 0 1rem blue, 0 0 0.2rem blue; */
+}
+
+h1 {
+    color: #a3cff9;
+}
+h2 {
+    color: #c3cff9;
+}
+
+footer {
+    font-size: 70%;
+    text-align: center;
+    padding: 1.7rem;
+}
+
+
+pre,
+code,
+element {
+    color: white;
+    background-color: #272822;
+}
+
+a {
+    color: #8ebafc;
+    text-decoration-line: underline;
+    /* text-decoration-style: wavy; */
+    text-decoration-thickness: 0.01rem;
+    text-decoration-color: rgba(149, 173, 252, 0.4); /* red underline */
+}
+
+a:hover {
+    color: #ff205b;
+    /* Set the color on hover */
+}
+
+.photography{
+    background-color: rgba(255, 255, 255, 0.13);
+}
+
+.theme-switcher-btn
+{
+    background-color: rgb(0,0,0,0);
+    color:white;
+}

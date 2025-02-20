@@ -1,0 +1,126 @@
+/* scale.css */
+
+html {
+    font-size: 20px; 
+}
+
+@media (max-width: 991px) { /* Tablets and smaller laptops */
+    html {
+      font-size: 18px;
+    }
+}
+
+@media (max-width: 767px) { /* Larger phones */
+    html {
+      font-size: 14px;
+    }
+}
+
+@media (max-width: 333px) { /* Smaller phones */
+    html {
+        font-size: 11px;
+    }
+}
+
+body {
+    font-family: Arial, sans-serif;
+    opacity: 1;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.2rem;
+    position: relative; /* Ensure the button is positioned relative to the header */
+}
+
+.header-content {
+    text-align: center;
+}
+
+
+h1 {
+    margin-bottom: 0rem;
+    margin-top: 3px;    
+}
+
+h2 {
+    padding-bottom: 0.25rem;
+    margin-bottom: 0.25rem;
+}
+
+h3 {
+    margin-top: 0.8;
+    font-size: 1.39rem;
+    margin-bottom: 0.2%;
+}
+
+h4 {
+    margin: 0.5rem;
+    font-size: 1.4rem;
+}
+
+main {
+    padding-left: 1.7rem;
+    padding-right: 1.7rem;
+    max-width: 68rem;
+    margin: auto;
+}
+
+footer {
+    font-size: 70%;
+    text-align: center;
+    padding: 1.7rem;
+}
+
+li {
+    margin-bottom: 1%;
+    font-size: 1.375rem;
+}
+
+.center {
+    display: block;
+    margin: 0 auto;
+}
+
+p {
+    font-size: 1.375rem;
+    margin: 0rem;
+}
+
+pre,
+code,
+element {
+    font-size: 1rem;
+}
+
+a {
+    text-decoration-line: underline;
+    text-decoration-thickness: 0.01rem;
+}
+
+.photography
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1em;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 1em;
+}
+.theme-switcher-btn
+{
+    border-radius: 5px;
+    cursor: pointer;
+    position: absolute;
+    right: 0.5rem;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-left: auto;
+    height: 34.5px;
+    width: 34.5px;
+}

@@ -4,13 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Arduino IDE Morse Code Library</title>
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/scale.css">
+    <link id="theme-style" rel="stylesheet" href="/css/light_style.css">
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
     <link rel="icon" href="/favicon.ico" type="image/x-icon">
 </head>
 <body>
     <header>
-        <h1 style=" margin-bottom: 0.25em;"><a href="https://nithitsuki.com/">Nithitsuki&#39;s Website</a></h1>
+        <h1 style=" margin-bottom: 0.25em; display: inline ;"><a href="https://nithitsuki.com/">Nithitsuki&#39;s Website</a></h1>
+        <button id="theme-switcher" class="theme-switcher-btn">Switch Theme</button>
+        <script src="/scripts/theme.js"></script>
     </header>
     <p style="text-align: center; word-spacing: 0.925em;">
         <a href="https://nithitsuki.com/incomplete-projects">Projects</a>
@@ -27,23 +30,23 @@
     <div><h2 id="the-simplest-and-most-well-documented-morse-code-library-for-the-arduino-ide">The Simplest and most well documented Morse Code Library for the Arduino IDE!</h2>
 <p>wanna skip to the installation? scroll down you lazy.
 <br style="line-height: 1.9em;"></p>
-<h3 id="hahahugoshortcode24s1hbhb-how-it-all-started-a-memoir">&nbsp;&nbsp;&nbsp;&nbsp; How it all started (a memoir)</h3>
+<h3 id="hahahugoshortcode22s1hbhb-how-it-all-started-a-memoir">&nbsp;&nbsp;&nbsp;&nbsp; How it all started (a memoir)</h3>
 <ul>
 <li>When I joined Amrita University in fall 2024, one of my first memories was a hackathon called Electronika—an overnight event with Arduinos, late-night coffee, and a cool prize pool. Though I never participated (^_^;), it’s how I met two friends. One of them teamed up with me to practice, compete, and (hopefully) win.</li>
 </ul>
-<h3 id="hahahugoshortcode24s2hbhb-the-spark-for-the-library">&nbsp;&nbsp;&nbsp;&nbsp; The Spark for the Library</h3>
+<h3 id="hahahugoshortcode22s2hbhb-the-spark-for-the-library">&nbsp;&nbsp;&nbsp;&nbsp; The Spark for the Library</h3>
 <ul>
 <li>My teammate was seriously dedicated to the hackathon, borderline scary levels of focus. Inspired, I brought my Arduino to campus, and during practice, we had the idea to transmit Morse code—something simple like SOS. That’s when I thought of creating functions to generalize Morse code transmission, like a library. I went home, whipped up dot(), dash(), and char_to_morse() for lowercase letters, and threw it on GitHub for a few months.</li>
 </ul>
-<h3 id="hahahugoshortcode24s3hbhb--a-semester-later">&nbsp;&nbsp;&nbsp;&nbsp;  A Semester Later</h3>
+<h3 id="hahahugoshortcode22s3hbhb--a-semester-later">&nbsp;&nbsp;&nbsp;&nbsp;  A Semester Later</h3>
 <ul>
 <li>Fast forward to the end of the semester. With a determination to finish something for once, I decided to revisit my simple code. I polished it up (re-wrote the entire thing from scratch), added lots of features, documented it thoroughly, and made sure it was easy for anyone to use.</li>
 </ul>
-<h3 id="hahahugoshortcode24s4hbhb--the-result-my-first-ever-tech-project">&nbsp;&nbsp;&nbsp;&nbsp;  The Result: My First Ever Tech Project</h3>
+<h3 id="hahahugoshortcode22s4hbhb--the-result-my-first-ever-tech-project">&nbsp;&nbsp;&nbsp;&nbsp;  The Result: My First Ever Tech Project</h3>
 <ul>
 <li>And here we are! I’m proud to say that this is the only Morse code library for Arduino I know of, which is both easy to install, well-documented, and simple to use. It might not have been a huge technical challenge, but the real victory for me was in finishing it and ending up with a polished product—a far cry from the rough draft it started as.</li>
 </ul>
-<h3 id="hahahugoshortcode24s5hbhb--looking-ahead">&nbsp;&nbsp;&nbsp;&nbsp;  Looking Ahead</h3>
+<h3 id="hahahugoshortcode22s5hbhb--looking-ahead">&nbsp;&nbsp;&nbsp;&nbsp;  Looking Ahead</h3>
 <ul>
 <li>This project was my first real tech endeavor, and while I’ve still got plenty of unfinished projects on my website (as you can see in the projects page!), this is one that I’m proud of. I hope this library helps you as much as it’s helped me, and I look forward to finishing the rest of my projects the same way!</li>
 </ul>
@@ -170,7 +173,7 @@ I’d love to see the projects you create with it! Please share them with me if 
     <a href="https://amrita.town/">
         <img src="/buttons/amrita.town.rev.18.gif" width="88px" height="31px" alt="Amrita.town">
     </a>
-    <a href="https://linuxmint.com/download.php">
+    <a href="https://linuxmint.com/">
         <img src="/buttons/linux_now.gif" width="88px" height="31px" alt="linux button gif">
     </a>
     <p>

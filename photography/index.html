@@ -4,13 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Some pictures to memorialise</title>
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/scale.css">
+    <link id="theme-style" rel="stylesheet" href="/css/light_style.css">
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
     <link rel="icon" href="/favicon.ico" type="image/x-icon">
 </head>
 <body>
     <header>
-        <h1 style=" margin-bottom: 0.25em;"><a href="https://nithitsuki.com/">Nithitsuki&#39;s Website</a></h1>
+        <h1 style=" margin-bottom: 0.25em; display: inline ;"><a href="https://nithitsuki.com/">Nithitsuki&#39;s Website</a></h1>
+        <button id="theme-switcher" class="theme-switcher-btn">Switch Theme</button>
+        <script src="/scripts/theme.js"></script>
     </header>
     <p style="text-align: center; word-spacing: 0.925em;">
         <a href="https://nithitsuki.com/incomplete-projects">Projects</a>
@@ -24,16 +27,16 @@
 			<article>
         
   
-  <p><div style="display: flex; justify-content: space-between; align-items: center; gap: 1em; padding: 0;">
+  <p><div class="photography">
     <div>
         <h1 style="margin: 0;">First Test Image</h1>
         <p style="margin: 0; text-align: justify;">I&#39;m planning on posting few pictures here later, altough It&#39;s definetly more of a lower priority than the blogs, projects, and getting rss implemented on this website, It&#39;s gonna take a while to get this site done lol. But hey, It&#39;s about the journey, not just the destination</p>
     </div>
-    <img src="/images/goku.png" alt="Picture of Goku" style="max-height: 35%; max-width: 35%;">
+    <img src="/images/goku.png" alt="Picture of Goku" style="max-height: 35%; max-width: 35%; border: 0.08rem solid #000;">
 </div>
 
-<div style="display: flex; justify-content: space-between; align-items: center; gap: 1em; padding: 0;">
-    <img src="/images/osaka.jpg" alt="Picture of Goku" style="max-height: 35%; max-width: 35%;">
+<div class="photography">
+    <img src="/images/osaka.jpg" alt="Picture of Goku" style="max-height: 35%; max-width: 35%; border: 0.08rem solid #000;">
     <div>
         <h1 style="margin: 0; text-align: right;">Test Image Number Two</h1>
         <p style="margin: 0;  text-align: justify;">I also need to implement a page system of sorts, since it&#39;s not really feasabile to ask the user to load a million images and scroll till infinity to find stuff (this aint social media)</p>
@@ -56,7 +59,7 @@
     <a href="https://amrita.town/">
         <img src="/buttons/amrita.town.rev.18.gif" width="88px" height="31px" alt="Amrita.town">
     </a>
-    <a href="https://linuxmint.com/download.php">
+    <a href="https://linuxmint.com/">
         <img src="/buttons/linux_now.gif" width="88px" height="31px" alt="linux button gif">
     </a>
     <p>
