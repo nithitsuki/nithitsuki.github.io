@@ -1,0 +1,53 @@
+/* color.css */
+
+body {
+    --color: rgba(114, 114, 114, 0.3);
+    /* background-color: rgb(244, 236, 216); */
+    background-color: #f6eee3;
+    color: rgb(91, 70, 54);
+}
+
+h1 {
+    color: rgb(91, 70, 74);
+}
+
+h2 {
+    color: rgb(91, 70, 64);
+}
+
+pre,
+code,
+element {
+    color: white;
+    background-color: #272822;
+}
+
+a {
+    /* color: #8ebafc; */
+    color: rgb(91, 70, 64,0.9);
+    text-decoration-color: rgba(105, 198, 255, 0.7); /* red underline */
+}
+
+a:visited {
+    color: rgb(91, 70, 64);
+}
+
+a:hover {
+    color: #d4050cc9;
+    /* Set the color on hover */
+}
+
+.photography{
+    background-color: rgba(0, 0, 0, 0.13);
+}
+
+.theme-switcher-btn
+{
+    background-color: rgb(0,0,0,0.1);
+    color:#000;
+}
+
+.wip
+{
+    color: rgb(72, 56, 59);
+}
