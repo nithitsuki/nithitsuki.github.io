@@ -11,6 +11,8 @@ body {
     background-image: url(/test.gif);
     background-size: 30%;
     background-position: 10%;
+        background-repeat: repeat; /* Ensures the image tiles both horizontally and vertically */
+    background-position: center top; /* Aligns the image to the top and centers it horizontally */
     background-color: #000000bd;
     background-blend-mode: hard-light;
 
@@ -23,16 +25,27 @@ body {
     margin: 0;
     padding: 0;
     /* color: #7b70e2; */
-    color: #afc0ff;
+    /* color: #afc0ff; */
+    /* color: #A0937D; */
+    /* color: #c0dde7; */
+    color: #87b0b5;
     /* text-shadow: 1rem 1rem 2rem #ffffff; */
     /* text-shadow: 0.02rem 0.02rem 0.02rem rgb(255, 81, 153), 0 0 1rem blue, 0 0 0.2rem blue; */
 }
 
-h1 {
-    color: #a3cff9;
+/* h1 { */
+    /* color: #a3cff9; */
+    /* color: #4FC3F7; */
+/* } */
+h1, h2 {
+    /* color: #c3cff9; */
+    /* color: #6b8cff;  too dark*/
+    /* color: #c2ccff; */
+    color: #a2acde;
 }
-h2 {
-    color: #c3cff9;
+h3
+{
+    color: #a7e2e8;
 }
 
 footer {
@@ -70,4 +83,10 @@ a:hover {
 {
     background-color: rgb(0,0,0,0);
     color:white;
+}
+
+main 
+{
+    background-color: rgb(0,0,0,0.5);
+    border-radius: 1rem;
 }

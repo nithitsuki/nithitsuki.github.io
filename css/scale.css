@@ -1,24 +1,30 @@
-/* scale.css */
-
 html {
     font-size: 20px; 
+    width: 100%;
+    height: 100%;
 }
 
 @media (max-width: 991px) { /* Tablets and smaller laptops */
     html {
       font-size: 18px;
+        width: 100%;
+        height: 100%;
     }
 }
 
 @media (max-width: 767px) { /* Larger phones */
     html {
       font-size: 14px;
+        width: 100%;
+        height: 100%;
     }
 }
 
 @media (max-width: 333px) { /* Smaller phones */
     html {
         font-size: 11px;
+        width: 100%;
+        height: 100%;
     }
 }
 
@@ -27,6 +33,8 @@ body {
     opacity: 1;
     margin: 0;
     padding: 0;
+    width: 100%;
+    height: 100%;
 }
 
 header {
